@@ -20,6 +20,7 @@ while (hra.SkoreHrac < 5 && hra.SkoreNepritele < 5)
     Console.WriteLine("3-papír");
     Console.WriteLine("----------------------------------");
     string zadanaHodnota = Console.ReadLine().ToLower();
+    Console.Clear();
 
     if (!Array.Exists(moznosti, element => element.Equals(zadanaHodnota)))
     {
